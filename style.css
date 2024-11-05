@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.modal-body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .text-center {
+        font-size: 1.5rem;
+    }
+    .modal-body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 10px;
+    }
+}
